@@ -12,6 +12,7 @@
     padding: 20px 16px;
     text-decoration: none;
     font-size: 17px;
+
 }
 
 .topnav a:hover {
@@ -32,7 +33,7 @@
     padding: 0px 2px;
 }
 
-.logo img {
+.logo a.img {
     height: 100%;
     width: 100%;
 }
