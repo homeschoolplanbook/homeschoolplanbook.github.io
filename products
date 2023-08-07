@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 <html>
+
+<head>
+    <title>Products</title>
+</head>
+
 <body>
 
     <img src="images/screamer.png" alt="screamer">
