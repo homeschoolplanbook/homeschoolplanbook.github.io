@@ -29,4 +29,10 @@
     float: left;
     width: 64px;
     height: 64px;
+    padding: 2px 2px;
+}
+
+.logo img {
+    height: 60;
+    width: 60;
 }
