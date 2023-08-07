@@ -9,7 +9,7 @@
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 20px 16px;
+    padding: 22px 16px;
     text-decoration: none;
     font-size: 17px;
     font-family: 'Trebuchet MS';
@@ -30,7 +30,7 @@
     float: left;
     width: 64px;
     height: 64px;
-    padding: 0px 2px;
+    padding: 2px 2px;
 }
 
 .logo img {
