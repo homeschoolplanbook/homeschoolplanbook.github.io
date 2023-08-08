@@ -14,7 +14,7 @@ div a {
     height: 64px;
 }
 
-.topnav > .button a, .topnav > .dropdown p {
+.topnav > .button a{
     float: left;
     color: #f2f2f2;
     text-align: center;
@@ -30,7 +30,7 @@ div a {
     color: #000000;
 }
 
-.topnav > .button a.active, .topnav a:active, .topnav .dropdown p:active, .dropdown p.active{
+.topnav > .button a.active, .topnav a:active{
     background-color: #57b08f;
     color: #ffffff;
 }
@@ -48,7 +48,7 @@ div a {
     width: 100%;
 }
 
-.dropdown-content {
+/* .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
@@ -73,4 +73,4 @@ div a {
 
 .dropdown:active .dropdown-content {
     display: block;
-}
+} */
