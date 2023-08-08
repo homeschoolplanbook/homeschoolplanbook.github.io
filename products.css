@@ -3,7 +3,7 @@
 }
 
 .products-array {
-    border: 1px dotted red;
+    border: 1px solid black;
     display: grid;
     place-items: center;
     height: 100%;
