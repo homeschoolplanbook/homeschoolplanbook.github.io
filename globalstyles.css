@@ -7,8 +7,16 @@ div a {
     border: 2px solid red;
 } */
 
+* {
+  box-sizing:border-box;
+}
+
+body {
+    background-color: #d1ccb7;
+}
+
 .topnav {
-    background-color: #132719;
+    background-color: #00190E;
     overflow: hidden;
     margin-left: 64px;
     height: 64px;
@@ -27,25 +35,26 @@ div a {
 
 .topnav > .button:hover{
     background-color: #ffffff;
-    color: #000000;
+    color: #00190E;
 }
 
 .topnav > .button a.active, .topnav a:active{
-    background-color: #57b08f;
+    background-color: #37765B;
     color: #ffffff;
 }
 
 .logo {
-    background-color: #132719;
+    background-color: #00190E;
     float: left;
     width: 64px;
     height: 64px;
-    padding: 0px 2px;
+    text-align: center;
 }
 
 .logo img {
-    height: 100%;
-    width: 100%;
+    margin-top: 1px;
+    height: 95%;
+    width: 95%;
 }
 
 /* .dropdown-content {
