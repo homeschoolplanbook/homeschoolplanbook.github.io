@@ -1,3 +1,12 @@
+
+/* div {
+    border: 2px solid blue;
+}
+
+div a {
+    border: 2px solid red;
+} */
+
 .topnav {
     background-color: #132719;
     overflow: hidden;
@@ -5,7 +14,7 @@
     height: 64px;
 }
 
-.topnav a {
+.topnav > .button a, .topnav > .dropdown p {
     float: left;
     color: #f2f2f2;
     text-align: center;
@@ -13,14 +22,15 @@
     text-decoration: none;
     font-size: 17px;
     font-family: 'Trebuchet MS';
+    margin-top: 1.5px;
 }
 
-.topnav a:hover {
+.topnav > .button:hover{
     background-color: #ffffff;
     color: #000000;
 }
 
-.topnav a.active {
+.topnav > .button a.active, .topnav a:active, .topnav .dropdown p:active, .dropdown p.active{
     background-color: #57b08f;
     color: #ffffff;
 }
@@ -42,25 +52,25 @@
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    margin-top: 50px;
+    margin-top: 60px;
+    margin-left: 73.5px;
 }
 
 .dropdown-content a {
     float: none;
     color: black;
-    padding: 12px 16px;
+    padding: 10px 8px;
     text-decoration: none;
     display: block;
-    text-align: left;
+    text-align: center;
 }
 
 .dropdown-content a:hover {
     background-color: #ddd;
 }
 
-.dropdown:hover .dropdown-content {
+.dropdown:active .dropdown-content {
     display: block;
 }
