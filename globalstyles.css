@@ -18,20 +18,17 @@ body {
 .topnav {
     background-color: #00190E;
     overflow: hidden;
-    margin-left: 64px;
-    height: 64px;
-    position:relative;
+    height: 10%;
 }
 
 .topnav > .button a{
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 20px 16px;
+    padding: 25.5px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 80%;
     font-family: 'Trebuchet MS';
-    margin-top: 1.5px;
 }
 
 .topnav > .button:hover{
@@ -44,18 +41,17 @@ body {
     color: #ffffff;
 }
 
-.logo {
-    background-color: #00190E;
+.topnav > .logo {
     float: left;
     width: 64px;
-    height: 64px;
+    height: 10%;
     text-align: center;
 }
 
 .logo img {
-    margin-top: 1px;
-    height: 95%;
-    width: 95%;
+    height: 100%;
+    width: 100%;
+    padding: 1px;
 }
 
 /* .dropdown-content {
