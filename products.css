@@ -1,11 +1,14 @@
+.content {
+    height: auto;
+    margin: 5% 1%;
+}
+
 .products-array {
     border: 1px solid black;
     display: grid;
     place-items: center;
     height: 100%;
     width: 95%;
-    margin: auto;
-    margin-top: 20px;
     grid-template-columns: repeat(auto, 2fr);
     grid-gap: 15px;
     grid-auto-rows: 250px;
