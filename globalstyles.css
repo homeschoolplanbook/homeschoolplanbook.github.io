@@ -28,6 +28,7 @@ nav {
     list-style: none;
     height: 100%;
     align-items: center;
+    padding: 0px;
 
 }
 
@@ -48,14 +49,20 @@ nav {
 
 }
 
-.navlink:hover, .navlink a:hover{
-    background-color: #ffffff;
+.navlink:hover a{
     color: #000000;
 }
 
-.navlink.active, .navlink:active, .navlink a:active {
-    background-color: #37765B;
+.navlink:hover{
+    background-color: #ffffff;
+}
+
+.navlink.active, .navlink:active a{
     color: #ffffff;
+}
+
+.navlink.active, .navlink:active {
+    background-color: #37765B;
 }
 
 .logo {
