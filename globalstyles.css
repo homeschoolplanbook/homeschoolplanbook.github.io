@@ -77,3 +77,97 @@ nav {
     height: 100%;
     width: 100%;
 }
+
+.footer {
+    height: 20vh;
+    background-color: #00190E; 
+    margin-bottom: 0px;
+    position: relative;
+}
+
+.bottomnav {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.b-logo {
+    display: flex;
+    height: 100%;
+    width: auto;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.b-logo img {
+    height: 30vw;
+    width: 30vw;
+    max-width: 125px;
+    max-height: 125px;
+
+}
+
+.b-navlinks {
+    height: 80%;
+    width: auto;
+    text-align: center;
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    list-style: none;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.contact-info {
+    height: 80%;
+    width: auto;
+    text-align: center;
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    list-style: none;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.b-navlink {
+    height: 100%;
+    width: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.info {
+    height: 100%;
+    width: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.b-navlink a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    text-align: center;
+    width: auto;
+}
+
+.info p {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    text-align: center;
+    width: auto;
+}
+
+.b-navlink a:active, .b-navlink a:hover {
+    color: #bbc2bf;
+}   
