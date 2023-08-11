@@ -1,7 +1,9 @@
 
 body {
     background-color: #d1ccb7;
-    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
@@ -82,7 +84,8 @@ nav {
     height: 20vh;
     background-color: #00190E; 
     margin-bottom: 0px;
-    position: relative;
+    display: flex;
+    margin-top: auto;
 }
 
 .bottomnav {
