@@ -68,14 +68,13 @@
 .title {
     font-size: 1.5em;
     font-weight: lighter;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif';
 }
 
 .price {
     font-size: .75em;
     font-weight: bold;
     font-style: italic;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
     color: rgb(39, 111, 64);
-    border-bottom: 0.5px dotted black;
 }
