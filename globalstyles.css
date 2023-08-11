@@ -49,23 +49,23 @@ nav {
     font-size: 1.5vh;
     padding: 0vh 2vw;
     color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    
 
 }
 
-.navlink:hover a{
-    color: #000000;
-}
 
-.navlink:hover{
-    background-color: #ffffff;
-}
 
-.navlink.active, .navlink:active a{
+.navlink a.active, .navlink a:active {
     color: #ffffff;
+    background-color: #37765B;
 }
 
-.navlink.active, .navlink:active {
-    background-color: #37765B;
+.navlink a:hover{
+    color: #000000;
+    background-color: #ffffff;
 }
 
 .logo {
