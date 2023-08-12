@@ -1,4 +1,3 @@
-
 body {
     background-color: #d1ccb7;
     min-height: 100vh;
@@ -55,8 +54,6 @@ nav {
     
 
 }
-
-
 
 .navlink a.active, .navlink a:active {
     color: #ffffff;
@@ -173,5 +170,4 @@ nav {
 
 .b-navlink a:active, .b-navlink a:hover {
     color: #bbc2bf;
-    text-decoration: unset;
 }   
