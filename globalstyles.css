@@ -173,4 +173,5 @@ nav {
 
 .b-navlink a:active, .b-navlink a:hover {
     color: #bbc2bf;
+    text-decoration: unset;
 }   
