@@ -81,7 +81,7 @@
 
 .product-image {
     min-width: 200px;
-    max-height: 500px;
+    max-height: 400px;
     height: 80%;
     margin: 20px 0;
     width: auto;
@@ -91,6 +91,11 @@
     border-radius: 5%;
     box-shadow: 10px 10px 5px #aaaaaa;
 }
+
+@media (min-width: 600px) {
+    .product-image { max-height: 500px; }
+}
+
 
 .back-arrow {
     width: 50px;
