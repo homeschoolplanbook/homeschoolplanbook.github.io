@@ -83,11 +83,24 @@
     min-width: 200px;
     max-height: 500px;
     height: 80%;
-    padding: 20px 0;
+    margin: 20px 0;
     width: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
     border-radius: 5%;
+    box-shadow: 10px 10px 5px #aaaaaa;
 }
 
+.back-arrow {
+    width: 0;
+    height: 0;
+    z-index: 1;
+    padding: 0;
+    margin: 0;
+}
+
+.back-arrow img {
+    height: 50px;
+    width: 50px;
+}
