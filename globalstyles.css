@@ -77,12 +77,6 @@ nav {
     width: 100%;
 }
 
-.content {
-    height: 100%;
-    width: 100%;
-    margin: 0;
-}
-
 .footer {
     height: 20vh;
     background-color: #00190E; 
@@ -177,3 +171,10 @@ nav {
 .b-navlink a:active, .b-navlink a:hover {
     color: #bbc2bf;
 }   
+
+.content {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: flex;
+}
