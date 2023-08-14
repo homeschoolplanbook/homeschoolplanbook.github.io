@@ -1,13 +1,13 @@
 .products-array {
     height: 100%;
     width: 100%;
-    background-color: #c1bcaa; 
     display: flex;
 /*     border: 1px solid rgb(63, 10, 19); */
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 1em;
     padding-left: 0px;
+    flex: 1 1 auto;
 
     
 }

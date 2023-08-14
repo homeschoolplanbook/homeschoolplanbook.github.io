@@ -50,12 +50,10 @@ nav {
     color: #f2f2f2;
     display: flex;
     align-items: center;
-    height: 100%;
-    
-
+    height: 100%; 
 }
 
-.navlink a.active, .navlink a:active {
+.navlink a.active{
     color: #ffffff;
     background-color: #37765B;
 }
@@ -63,6 +61,11 @@ nav {
 .navlink a:hover{
     color: #000000;
     background-color: #ffffff;
+}
+
+.navlink a:active {
+    color: #ffffff;
+    background-color: #37765B;
 }
 
 .logo {
@@ -175,6 +178,9 @@ nav {
 .content {
     height: 100%;
     width: 100%;
-    margin: 0;
+    margin: 5px 0;
+    border-radius: 1%;
     display: flex;
+    flex: 1 1 auto;
+    background-color: #c1bcaa; 
 }
