@@ -1,0 +1,98 @@
+/* .content {
+    margin: 0;
+    display: flex;
+    padding: 0;
+    flex-direction: column;
+}
+
+.top-focus {
+    height: 45vh;
+    background-image: url("images/green.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: auto;
+    border: 1px solid red;
+}
+
+.bottom-focus {
+    margin: 0;
+    padding: 0;
+    height: 50vh;
+    width: auto;
+    border: 1px solid red;
+}
+
+.contact {
+    margin-top: 0;
+    margin: 10px;
+    margin-bottom: 0;
+    text-shadow: 1px 1px 2px #668175;
+    font-size: 4vw;
+    font-family: 'Charm', 'cursive', serif;
+}
+
+@media (max-width: 600px) {
+    .name{ 
+        font-size: 34px; 
+    }
+} */
+
+
+.content {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.top-focus {
+    height: 25%;
+    width: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background-image: url("images/green.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.top-focus h1 {
+    width: 100%;
+    font-size: 2.5em;
+    font-family: serif;
+}
+
+.bottom-focus {
+    height: 75%;
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: auto;
+    align-content: center;
+}
+
+@media (min-width: 900px) {
+    .bottom-focus { grid-template-columns: repeat(3, 1fr); }
+    .content {height: 50vh;}
+    .bottom-focus {margin: 40px 20px;}
+}
+
+.bottom-focus div {
+    width: auto;
+    display: flex;
+    margin: 20px 5px;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.phone-header, .email-header, .po-header {
+    padding-bottom: 8px;
+    width: 200px;
+    border-bottom: 1px solid grey;
+    font-family: 'Lucida Grande', 'Lucida Sans', sans-serif;;
+}
