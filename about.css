@@ -28,11 +28,7 @@
     font-size: 1.5em;
 }
 
-@media (min-width: 600px) {
-    .focus p{ 
-        margin: 15px 30px 30px 30px; 
-    }
-} 
+
 
 .focus p {
     text-align: justify;
@@ -40,4 +36,10 @@
     margin: 15px;
     margin-bottom: 30px;
 }
+
+@media (min-width: 600px) {
+    .focus p{ 
+        margin: 15px 35px 30px 30px;
+    }
+} 
 
